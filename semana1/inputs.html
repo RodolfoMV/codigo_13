@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TIPOS DE INPUTS</h1>
+
+    <!--Input: Es una caja que puede ser de texto/numeros/fechas/colores/hora/archivos/checkbox/radiobutton-->
+    <h2>Input Texto</h2>
+    <input type="text" placeholder="Ingresa tu nombre" value="Rodolfo Montes" name="campo_nombre" id="mi_nombre">
+
+    <h2>Input Número</h2>
+    <input type="number" placeholder="Ingrese su edad" name="campo_edad" id="mi_edad">
+
+    <h2>Input Email, Password y Submit</h2>
+    <input type="email" placeholder="Ingrese su Email">
+    <input type="password" placeholder="Ingrese su Contraseña">
+    <input type="submit">
+
+    <h2>Input Fecha y Hora</h2>
+    <input type="date">
+    <input type="time" name="campo_time" id="mi_hora">
+    <input type="datetime-local" name="campo_diahora" id="mi_diahora">
+
+    <h2>Input Tipo Archivo</h2>
+    <input type="file">
+    <br>
+
+    <!--Input solo pdf-->
+    <h2>Solo PDF</h2>
+    <input type="file" accept="application/pdf">
+    <br>
+
+    <!--Input solo imagenes de todas las extensiones-->
+    <h2>Solo imágenes</h2>
+    <input type="file" accept="image/*">
+    <br>
+
+    <!--Input solo videos de todas las extensiones-->
+    <h2>Solo videos</h2>
+    <input type="file" accept="video/*">
+    <br>
+
+    <!--Input solo audios de todas las extensiones-->
+    <h2>Solo Audios</h2>
+    <input type="file" accept="audio/*">
+    <br>
+
+    <!--Input tipo RADIO - CHECKBOX-->
+    
+    <h2>Input tipo RADIO</h2>
+    <p>
+        <input type="radio" name="radio_registro" checked> Radio 1
+        <br>
+        <input type="radio" name="radio_registro"> Radio 2
+        <br>
+        <input type="radio" name="radio_registro"> Radio 3
+        <!--Para que los input radio se enlacen deben tener el mismo name y con el atributo "checked" puedes 
+        porner uno de los radio seleccionado-->
+    </p>
+
+    <h2>Input tipo checkbox</h2>
+    <p>
+        <input type="checkbox" name="opcion_check[]" checked> checkbox 1
+        <br>
+        <input type="checkbox" name="opcion_check[]" checked> checkbox 2
+        <br>
+        <input type="checkbox" name="opcion_check[]"> checkbox 3
+        <!--Para que los checkbox se enlacen deben tener el mismo name y con el atributo "[]" puedes 
+            hacer que puedan tener selección múltiple-->
+    </p>
+
+    <h2>Input tipo color</h2>
+    <input type="color">
+
+    <h2>Input tipo rango</h2>
+    <input type="range">
+
+    <h2>Input search</h2>
+    <input type="search" placeholder="Ingrese su busqueda">
+
+    <h2>Input tipo Tel</h2>
+    <input type="tel">
+
+
+
+
+
+
+</body>
+</html>
