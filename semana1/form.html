@@ -8,5 +8,56 @@
 </head>
 <body>
     <h1>Formularios</h1>
+    <!--Formularios-->
+    <form action="" method="">
+        <input 
+            type="text" 
+            placeholder="Ingrese su nombre" 
+            name="nombre" 
+            id="mi_nombre"
+        >
+        <input 
+            type="text" 
+            name="ip" 
+            value="127.0.0.1" 
+            readonly
+        >
+        <input 
+            type="text"
+            name="numero_hijos"
+            value="5"
+            disabled
+        >
+        <!-- El atributo disabled no permite que el dato contenido en dicho campo sea enviado-->
+        <input 
+            type="text" 
+            placeholder="Ingrese su DNI" 
+            name="dni" 
+            minlength="8" 
+            maxlength="8"
+        >
+        <input 
+            type="number" 
+            max="1000" 
+            min="0" 
+            step="15"
+        >
+        <input 
+            type="email" 
+            placeholder="Ingrese su Email" 
+            name="email" 
+            id="mi_email"
+        >
+        <input 
+            type="password" 
+            placeholder="Ingrese su password" 
+            name="password" 
+            id="mi_password"
+        >
+        <input 
+            type="submit" 
+            value="Ingresar"
+        >
+    </form>
 </body>
 </html>
